@@ -1,0 +1,35 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.python-version
+
+# Datasets
+train/
+test/
+
+# Models & Checkpoints
+saved_models/
+*.keras
+*.h5
+
+# Logs & Metrics
+logs/
+
+# Sensitive Data
+kaggle.json
+
+# IDEs & Local Configs
+.vscode/
+.idea/
+.DS_Store
+
+# Misc
+*.webp
+*.ipynb_checkpoints/
